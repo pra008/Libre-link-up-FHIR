@@ -1,0 +1,640 @@
+{
+  "connection": {
+    "id": "XXXXXX-3414-11ee-bc21-dadsdasasd",
+    "patientId": "69442d97-3414-11ee-9966-0ec5aa995be3",
+    "country": "NO",
+    "status": 2,
+    "firstName": "XXXXX",
+    "lastName": "XXXXX",
+    "targetLow": 70,
+    "targetHigh": 180,
+    "uom": 0,
+    "sensor": {
+      "deviceId": "",
+      "sn": "M0067KN0RH",
+      "a": 1700484525,
+      "w": 60,
+      "pt": 3,
+      "s": false,
+      "lj": false
+    },
+    "alarmRules": {
+      "h": {
+        "on": true,
+        "th": 250,
+        "thmm": 13.9,
+        "d": 1440,
+        "f": 0.1
+      },
+      "f": {
+        "th": 55,
+        "thmm": 3,
+        "d": 30,
+        "tl": 10,
+        "tlmm": 0.6
+      },
+      "l": {
+        "on": true,
+        "th": 70,
+        "thmm": 3.9,
+        "d": 1440,
+        "tl": 10,
+        "tlmm": 0.6
+      },
+      "nd": {
+        "i": 20,
+        "r": 5,
+        "l": 6
+      },
+      "p": 5,
+      "r": 5,
+      "std": {}
+    },
+    "glucoseMeasurement": {
+      "FactoryTimestamp": "11/27/2023 5:29:33 PM",
+      "Timestamp": "11/27/2023 6:29:33 PM",
+      "type": 1,
+      "ValueInMgPerDl": 82,
+      "TrendArrow": 3,
+      "TrendMessage": null,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.6,
+      "isHigh": false,
+      "isLow": false
+    },
+    "glucoseItem": {
+      "FactoryTimestamp": "11/27/2023 5:29:33 PM",
+      "Timestamp": "11/27/2023 6:29:33 PM",
+      "type": 1,
+      "ValueInMgPerDl": 82,
+      "TrendArrow": 3,
+      "TrendMessage": null,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.6,
+      "isHigh": false,
+      "isLow": false
+    },
+    "glucoseAlarm": null,
+    "patientDevice": {
+      "did": "7c9341a4-3414-11ee-a8ee-8ea318caf8c8",
+      "dtid": 40066,
+      "v": "2.10.2.7677",
+      "ll": 70,
+      "hl": 240,
+      "fixedLowAlarmValues": {
+        "mgdl": 60,
+        "mmoll": 3.3
+      },
+      "alarms": true,
+      "fixedLowThreshold": 70
+    },
+    "created": 1691297362
+  },
+  "activeSensors": [
+    {
+      "sensor": {
+        "deviceId": "7c9341a4-3414-11ee-a8ee-8ea318caf8c8",
+        "sn": "M0067KN0RH",
+        "a": 1700484525,
+        "w": 60,
+        "pt": 3,
+        "s": false,
+        "lj": false
+      },
+      "device": {
+        "did": "7c9341a4-3414-11ee-a8ee-8ea318caf8c8",
+        "dtid": 40066,
+        "v": "2.10.2.7677",
+        "ll": 70,
+        "hl": 240,
+        "fixedLowAlarmValues": {
+          "mgdl": 60,
+          "mmoll": 3.3
+        },
+        "alarms": true,
+        "fixedLowThreshold": 70
+      }
+    }
+  ],
+  "graphData": [
+    {
+      "FactoryTimestamp": "11/27/2023 5:32:32 AM",
+      "Timestamp": "11/27/2023 6:32:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 76,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.2,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 5:47:32 AM",
+      "Timestamp": "11/27/2023 6:47:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 76,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.2,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 6:02:32 AM",
+      "Timestamp": "11/27/2023 7:02:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 75,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.2,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 6:17:32 AM",
+      "Timestamp": "11/27/2023 7:17:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 77,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.3,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 6:32:32 AM",
+      "Timestamp": "11/27/2023 7:32:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 82,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.6,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 6:47:32 AM",
+      "Timestamp": "11/27/2023 7:47:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 92,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.1,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 7:02:32 AM",
+      "Timestamp": "11/27/2023 8:02:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 108,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 6,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 7:17:32 AM",
+      "Timestamp": "11/27/2023 8:17:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 111,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 6.2,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 7:32:32 AM",
+      "Timestamp": "11/27/2023 8:32:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 101,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.6,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 7:47:32 AM",
+      "Timestamp": "11/27/2023 8:47:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 92,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.1,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 8:02:32 AM",
+      "Timestamp": "11/27/2023 9:02:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 93,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.2,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 8:17:32 AM",
+      "Timestamp": "11/27/2023 9:17:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 91,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.1,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 8:32:32 AM",
+      "Timestamp": "11/27/2023 9:32:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 80,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.4,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 8:47:32 AM",
+      "Timestamp": "11/27/2023 9:47:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 77,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.3,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 9:02:32 AM",
+      "Timestamp": "11/27/2023 10:02:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 84,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.7,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 9:17:32 AM",
+      "Timestamp": "11/27/2023 10:17:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 87,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.8,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 9:32:32 AM",
+      "Timestamp": "11/27/2023 10:32:32 AM",
+      "type": 0,
+      "ValueInMgPerDl": 88,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.9,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 9:48:00 AM",
+      "Timestamp": "11/27/2023 10:48:00 AM",
+      "type": 0,
+      "ValueInMgPerDl": 91,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.1,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 10:03:00 AM",
+      "Timestamp": "11/27/2023 11:03:00 AM",
+      "type": 0,
+      "ValueInMgPerDl": 98,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.4,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 10:17:33 AM",
+      "Timestamp": "11/27/2023 11:17:33 AM",
+      "type": 0,
+      "ValueInMgPerDl": 93,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.2,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 10:32:33 AM",
+      "Timestamp": "11/27/2023 11:32:33 AM",
+      "type": 0,
+      "ValueInMgPerDl": 86,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.8,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 10:47:33 AM",
+      "Timestamp": "11/27/2023 11:47:33 AM",
+      "type": 0,
+      "ValueInMgPerDl": 87,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.8,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 11:02:33 AM",
+      "Timestamp": "11/27/2023 12:02:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 89,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.9,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 11:17:33 AM",
+      "Timestamp": "11/27/2023 12:17:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 91,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.1,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 11:32:33 AM",
+      "Timestamp": "11/27/2023 12:32:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 103,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.7,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 11:47:33 AM",
+      "Timestamp": "11/27/2023 12:47:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 124,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 6.9,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 12:02:33 PM",
+      "Timestamp": "11/27/2023 1:02:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 129,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 7.2,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 12:17:33 PM",
+      "Timestamp": "11/27/2023 1:17:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 117,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 6.5,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 12:32:33 PM",
+      "Timestamp": "11/27/2023 1:32:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 102,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.7,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 12:47:33 PM",
+      "Timestamp": "11/27/2023 1:47:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 92,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.1,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 1:02:33 PM",
+      "Timestamp": "11/27/2023 2:02:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 92,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.1,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 1:17:33 PM",
+      "Timestamp": "11/27/2023 2:17:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 93,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.2,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 1:32:33 PM",
+      "Timestamp": "11/27/2023 2:32:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 91,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.1,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 1:47:33 PM",
+      "Timestamp": "11/27/2023 2:47:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 92,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.1,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 2:02:33 PM",
+      "Timestamp": "11/27/2023 3:02:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 97,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.4,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 2:17:33 PM",
+      "Timestamp": "11/27/2023 3:17:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 102,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.7,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 2:32:33 PM",
+      "Timestamp": "11/27/2023 3:32:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 116,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 6.4,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 2:47:33 PM",
+      "Timestamp": "11/27/2023 3:47:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 132,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 7.3,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 3:02:33 PM",
+      "Timestamp": "11/27/2023 4:02:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 131,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 7.3,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 3:17:33 PM",
+      "Timestamp": "11/27/2023 4:17:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 120,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 6.7,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 3:32:33 PM",
+      "Timestamp": "11/27/2023 4:32:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 113,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 6.3,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 3:47:33 PM",
+      "Timestamp": "11/27/2023 4:47:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 106,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.9,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 4:02:33 PM",
+      "Timestamp": "11/27/2023 5:02:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 96,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 5.3,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 4:17:33 PM",
+      "Timestamp": "11/27/2023 5:17:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 88,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.9,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 4:32:33 PM",
+      "Timestamp": "11/27/2023 5:32:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 87,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.8,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 4:47:33 PM",
+      "Timestamp": "11/27/2023 5:47:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 87,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.8,
+      "isHigh": false,
+      "isLow": false
+    },
+    {
+      "FactoryTimestamp": "11/27/2023 5:02:33 PM",
+      "Timestamp": "11/27/2023 6:02:33 PM",
+      "type": 0,
+      "ValueInMgPerDl": 86,
+      "MeasurementColor": 1,
+      "GlucoseUnits": 0,
+      "Value": 4.8,
+      "isHigh": false,
+      "isLow": false
+    }
+  ]
+}

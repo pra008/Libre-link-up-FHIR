@@ -1,0 +1,64 @@
+{
+  "name": "libre-link-up-fhir",
+  "version": "1.0.0",
+  "description": "Script written in TypeScript that uploads CGM readings from LibreLink Up to FHIR",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npx ts-node --transpile-only src/index.ts",
+    "lint": "npx eslint . --fix",
+    "dev": "env-cmd -f ./.env npx ts-node --transpile-only src/index.ts",
+    "demo": "dotenv -e .env npx ts-node --transpile-only src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pra016@dev.azure.com/pra016/Continua/_git/libre-link-up-fhir"
+  },
+  "credits": {
+    "originalRepository": {
+      "url": "https://github.com/timoschlueter/nightscout-librelink-up",
+      "author": "Timo Schlüter"
+    }
+  },
+  "keywords": [
+    "fhir",
+    "cgm",
+    "diabetes",
+    "blood",
+    "sugar",
+    "freestyle",
+    "libre",
+    "librelink",
+    "up",
+    "uploader"
+  ],
+  "author": "Pietro Randine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://pra016@dev.azure.com/pra016/Continua/_git/libre-link-up-fhir/issues"
+  },
+  "homepage": "https://pra016@dev.azure.com/pra016/Continua/_git/libre-link-up-fhir#readme",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "axios-mock-adapter": "^1.21.2",
+    "node-cron": "3.0.2",
+    "uuid": "^9.0.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@types/dotenv": "^8.2.0",
+    "@types/jest": "^29.2.4",
+    "@types/node": "^18.11.18",
+    "@types/node-cron": "^3.0.7",
+    "@types/uuid": "^9.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "env-cmd": "^10.1.0",
+    "eslint": "^8.30.0",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}

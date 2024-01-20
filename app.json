@@ -1,0 +1,87 @@
+{
+  "name": "Fhir LibreLinkUp Uploader",
+  "description": "Uploads your Blood Glucose from LibreLinkUp to FHIR server",
+  "formation": {
+    "web": {
+      "quantity": 0,
+      "size": "eco"
+    },
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+  "env": {
+    "LINK_UP_USERNAME": {
+      "description": "Your LibreLinkUp (LibreView) username/email address",
+      "value": "",
+      "required": true
+    },
+    "LINK_UP_PASSWORD": {
+      "description": "Your LibreLinkUp (LibreView)",
+      "value": "",
+      "required": true
+    },
+    "LINK_UP_CONNECTION": {
+      "description": "Your LibreLinkUp (LibreView) Patient-ID. Can be received from the console output if multiple connections are available.",
+      "value": "",
+      "required": false
+    },
+    "LINK_UP_TIME_INTERVAL": {
+      "description": "The time interval (in minutes) in which the values should be retrieved from Libre Link Up",
+      "value": "5",
+      "required": true
+    },
+    "LINK_UP_REGION": {
+      "description": "Your region. Used to determine the correct LibreLinkUp service (Possible values: US, EU, DE, FR, JP, AP, AU, AE)",
+      "value": "EU",
+      "required": false
+    },
+    "LOG_LEVEL": {
+      "description": "The log-level to use.",
+      "value": "info",
+      "required": false
+    },
+    "SINGLE_SHOT": {
+      "description": "Disables the scheduler and runs the script just once",
+      "value": "",
+      "required": false
+    },
+    "DEMO_ENABLED": {
+      "description": "Enable the DEMO and runs the script just once",
+      "value": "",
+      "required": false
+    },
+    "FHIR_ID": {
+      "description": "FHIR ID for a patient",
+      "value": "",
+      "required": true
+    },
+    "FHIR_URL": {
+      "description": "URL of the FHIR server",
+      "value": "",
+      "required": true
+    },
+    "TOKEN_ENDPOINT": {
+      "description": "Endpoint URL for obtaining authentication tokens",
+      "value": "",
+      "required": true
+    },
+    "CLIENT_ID": {
+      "description": "Client ID for authenticating with Keycloak",
+      "value": "",
+      "required": true
+    },
+    "CLIENT_SECRET": {
+      "description": "Client secret for authenticating with Keycloak",
+      "value": "",
+      "required": true
+    },
+    "SCOPE": {
+      "description": "Client Scope for FHIR server",
+      "value": "",
+      "required": true
+    }
+    
+  }
+}

@@ -1,0 +1,3108 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "Observation/1fc9f00d-926b-46cb-bcf0-99f7fd2c40b9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1fc9f00d-926b-46cb-bcf0-99f7fd2c40b9",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T05:32:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T05:32:32.000Z",
+        "valueQuantity": {
+          "value": 76,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/1e667a69-b665-4e1c-9cf3-576b645c35c9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1e667a69-b665-4e1c-9cf3-576b645c35c9",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T05:47:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T05:47:32.000Z",
+        "valueQuantity": {
+          "value": 76,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/8503089b-ccfe-45fe-8e47-58ec22bb6ac8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8503089b-ccfe-45fe-8e47-58ec22bb6ac8",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T06:02:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T06:02:32.000Z",
+        "valueQuantity": {
+          "value": 75,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/d7079cfa-354d-481c-a02f-4215170a9f9f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d7079cfa-354d-481c-a02f-4215170a9f9f",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T06:17:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T06:17:32.000Z",
+        "valueQuantity": {
+          "value": 77,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/87478d64-330b-4679-bf21-50f874793e03",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "87478d64-330b-4679-bf21-50f874793e03",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T06:32:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T06:32:32.000Z",
+        "valueQuantity": {
+          "value": 82,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/bd658881-8155-4009-88c2-11b439992804",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bd658881-8155-4009-88c2-11b439992804",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T06:47:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T06:47:32.000Z",
+        "valueQuantity": {
+          "value": 92,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/5bc8ec4a-40bc-47b3-86a6-cfd015a636c0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5bc8ec4a-40bc-47b3-86a6-cfd015a636c0",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T07:02:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T07:02:32.000Z",
+        "valueQuantity": {
+          "value": 108,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/513ee0f9-ca22-4740-9305-b0fc974933f4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "513ee0f9-ca22-4740-9305-b0fc974933f4",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T07:17:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T07:17:32.000Z",
+        "valueQuantity": {
+          "value": 111,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/742ec874-7994-4bca-9d3b-1f8586bcf9bb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "742ec874-7994-4bca-9d3b-1f8586bcf9bb",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T07:32:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T07:32:32.000Z",
+        "valueQuantity": {
+          "value": 101,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/4ec6024c-0ec0-4b09-b091-959a053967d3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4ec6024c-0ec0-4b09-b091-959a053967d3",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T07:47:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T07:47:32.000Z",
+        "valueQuantity": {
+          "value": 92,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/7b104136-8d83-4db6-ab64-1a902ba8fec2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7b104136-8d83-4db6-ab64-1a902ba8fec2",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T08:02:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T08:02:32.000Z",
+        "valueQuantity": {
+          "value": 93,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/7fd148b8-0361-4037-84ab-dc22c13088ad",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7fd148b8-0361-4037-84ab-dc22c13088ad",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T08:17:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T08:17:32.000Z",
+        "valueQuantity": {
+          "value": 91,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/87d653ab-3ffb-49e6-a91c-67b992778524",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "87d653ab-3ffb-49e6-a91c-67b992778524",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T08:32:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T08:32:32.000Z",
+        "valueQuantity": {
+          "value": 80,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/a3bfe2e2-9017-4869-9cd7-2b43cd4fdb1f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a3bfe2e2-9017-4869-9cd7-2b43cd4fdb1f",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T08:47:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T08:47:32.000Z",
+        "valueQuantity": {
+          "value": 77,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/20840779-4646-40d9-b0f4-56a7ee1afceb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "20840779-4646-40d9-b0f4-56a7ee1afceb",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T09:02:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T09:02:32.000Z",
+        "valueQuantity": {
+          "value": 84,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/78ae3238-8768-4002-9b58-d3519608b88c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "78ae3238-8768-4002-9b58-d3519608b88c",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T09:17:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T09:17:32.000Z",
+        "valueQuantity": {
+          "value": 87,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/519e5647-bda8-44d2-a7c4-f5d4c703ac67",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "519e5647-bda8-44d2-a7c4-f5d4c703ac67",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T09:32:32.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T09:32:32.000Z",
+        "valueQuantity": {
+          "value": 88,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/aab894ec-ed1e-4bc1-bf2c-0a588764d350",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "aab894ec-ed1e-4bc1-bf2c-0a588764d350",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T09:48:00.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T09:48:00.000Z",
+        "valueQuantity": {
+          "value": 91,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/45767b07-c3e3-45a0-ab8e-66d4a29990d7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "45767b07-c3e3-45a0-ab8e-66d4a29990d7",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T10:03:00.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T10:03:00.000Z",
+        "valueQuantity": {
+          "value": 98,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/4bfa3f2c-f2b1-455b-ba40-5c42c4ebc130",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4bfa3f2c-f2b1-455b-ba40-5c42c4ebc130",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T10:17:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T10:17:33.000Z",
+        "valueQuantity": {
+          "value": 93,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/5905ca90-5697-43ff-ba72-64b5596b49c9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5905ca90-5697-43ff-ba72-64b5596b49c9",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T10:32:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T10:32:33.000Z",
+        "valueQuantity": {
+          "value": 86,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/85cdb3bc-ed16-4ce8-b38c-ff91e4136920",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "85cdb3bc-ed16-4ce8-b38c-ff91e4136920",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T10:47:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T10:47:33.000Z",
+        "valueQuantity": {
+          "value": 87,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/6df1ce1b-718b-4999-8c8e-4f5521d9b37e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6df1ce1b-718b-4999-8c8e-4f5521d9b37e",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T11:02:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T11:02:33.000Z",
+        "valueQuantity": {
+          "value": 89,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/dfc6cc8e-e941-4043-923a-41d9e78b04c0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "dfc6cc8e-e941-4043-923a-41d9e78b04c0",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T11:17:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T11:17:33.000Z",
+        "valueQuantity": {
+          "value": 91,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/03a7fd2d-e04f-4709-9d7b-7f6f10673326",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "03a7fd2d-e04f-4709-9d7b-7f6f10673326",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T11:32:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T11:32:33.000Z",
+        "valueQuantity": {
+          "value": 103,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/47e137d2-d1eb-4a19-a564-b887f2eeb915",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "47e137d2-d1eb-4a19-a564-b887f2eeb915",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T11:47:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T11:47:33.000Z",
+        "valueQuantity": {
+          "value": 124,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/40725a34-435a-46be-9b5f-d933819744a6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "40725a34-435a-46be-9b5f-d933819744a6",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T12:02:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T12:02:33.000Z",
+        "valueQuantity": {
+          "value": 129,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/ffe4042d-ddcb-40a8-b04c-c690cd236be9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ffe4042d-ddcb-40a8-b04c-c690cd236be9",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T12:17:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T12:17:33.000Z",
+        "valueQuantity": {
+          "value": 117,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/3a8b882c-eb85-4abf-a368-fd2e6c0bb7a5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3a8b882c-eb85-4abf-a368-fd2e6c0bb7a5",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T12:32:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T12:32:33.000Z",
+        "valueQuantity": {
+          "value": 102,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/f75eef46-19db-44b7-8b87-184dadf72681",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f75eef46-19db-44b7-8b87-184dadf72681",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T12:47:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T12:47:33.000Z",
+        "valueQuantity": {
+          "value": 92,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/569c3c13-b7a4-4e57-8747-da71a9a0e54d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "569c3c13-b7a4-4e57-8747-da71a9a0e54d",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T13:02:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T13:02:33.000Z",
+        "valueQuantity": {
+          "value": 92,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/b3287ed1-a26d-4763-bec1-7cea3baf9891",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b3287ed1-a26d-4763-bec1-7cea3baf9891",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T13:17:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T13:17:33.000Z",
+        "valueQuantity": {
+          "value": 93,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/fdee5a45-4e95-49ab-9646-aebd2c7479ae",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fdee5a45-4e95-49ab-9646-aebd2c7479ae",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T13:32:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T13:32:33.000Z",
+        "valueQuantity": {
+          "value": 91,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/b498933f-a4d3-4452-970e-fa657e072a65",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b498933f-a4d3-4452-970e-fa657e072a65",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T13:47:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T13:47:33.000Z",
+        "valueQuantity": {
+          "value": 92,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/2e71cc3d-f29a-4de1-804b-6526acec7fcd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2e71cc3d-f29a-4de1-804b-6526acec7fcd",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T14:02:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T14:02:33.000Z",
+        "valueQuantity": {
+          "value": 97,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/a5b1ae59-b0b1-4acf-84c8-da1d214f6115",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a5b1ae59-b0b1-4acf-84c8-da1d214f6115",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T14:17:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T14:17:33.000Z",
+        "valueQuantity": {
+          "value": 102,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/b2fadb0e-b206-4611-96b7-da5ae5a1141c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b2fadb0e-b206-4611-96b7-da5ae5a1141c",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T14:32:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T14:32:33.000Z",
+        "valueQuantity": {
+          "value": 116,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/76a24588-1fa3-4695-8626-5c101f073fb9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "76a24588-1fa3-4695-8626-5c101f073fb9",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T14:47:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T14:47:33.000Z",
+        "valueQuantity": {
+          "value": 132,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/3e9a349b-5ca5-46e3-a2c4-058c0e8e4f5c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3e9a349b-5ca5-46e3-a2c4-058c0e8e4f5c",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T15:02:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T15:02:33.000Z",
+        "valueQuantity": {
+          "value": 131,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/51b03b0f-7aa0-4f0a-b82c-38c8329d044a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "51b03b0f-7aa0-4f0a-b82c-38c8329d044a",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T15:17:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T15:17:33.000Z",
+        "valueQuantity": {
+          "value": 120,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/2a19d285-f8d8-47a9-911a-8e7efd9e5780",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2a19d285-f8d8-47a9-911a-8e7efd9e5780",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T15:32:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T15:32:33.000Z",
+        "valueQuantity": {
+          "value": 113,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/37d05b48-844e-40ae-8549-2bdb051960b6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "37d05b48-844e-40ae-8549-2bdb051960b6",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T15:47:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T15:47:33.000Z",
+        "valueQuantity": {
+          "value": 106,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/6540b89b-a300-489f-b0e1-245dec33daa4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6540b89b-a300-489f-b0e1-245dec33daa4",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T16:02:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T16:02:33.000Z",
+        "valueQuantity": {
+          "value": 96,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/7b5a46bd-e1b9-4a90-b296-c302c2f36679",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7b5a46bd-e1b9-4a90-b296-c302c2f36679",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T16:17:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T16:17:33.000Z",
+        "valueQuantity": {
+          "value": 88,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/36b18f68-c11c-4064-9a49-93e6483ae661",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "36b18f68-c11c-4064-9a49-93e6483ae661",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T16:32:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T16:32:33.000Z",
+        "valueQuantity": {
+          "value": 87,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/5245510b-219d-4bb0-a0f7-7bb33a7b9423",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5245510b-219d-4bb0-a0f7-7bb33a7b9423",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T16:47:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T16:47:33.000Z",
+        "valueQuantity": {
+          "value": 87,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "Observation/7b1c6fdf-9446-4d39-bad5-8b5897cad061",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7b1c6fdf-9446-4d39-bad5-8b5897cad061",
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details TODO</b></p></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+            "value": "6323"
+          }
+        ],
+        "status": "final",
+        "effectiveDateTime": "2023-11-27T17:02:33.000Z",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14745-4",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+          "display": "Tester"
+        },
+        "issued": "2023-11-27T17:02:33.000Z",
+        "valueQuantity": {
+          "value": 86,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "2339-0"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            },
+            "high": {
+              "value": 180,
+              "unit": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/dL"
+            }
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Patient/18be95a11b0-dcba0fc2-1108-4165-8391-81712540e00f",
+            "display": "Tester"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    }
+  ]
+}
